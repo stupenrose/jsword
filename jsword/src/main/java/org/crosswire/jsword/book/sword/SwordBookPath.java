@@ -111,19 +111,19 @@ public class SwordBookPath
             }
         }
 
-        File[] defaultPath = getDefaultPaths();
-        // Then all the user's bookDirs
-        if (defaultPath != null)
-        {
-            for (int i = 0; i < defaultPath.length; i++)
-            {
-                File path = defaultPath[i];
-                if (!swordPath.contains(path))
-                {
-                    swordPath.add(path);
-                }
-            }
-        }
+//        File[] defaultPath = getDefaultPaths();
+//        // Then all the user's bookDirs
+//        if (defaultPath != null)
+//        {
+//            for (int i = 0; i < defaultPath.length; i++)
+//            {
+//                File path = defaultPath[i];
+//                if (!swordPath.contains(path))
+//                {
+//                    swordPath.add(path);
+//                }
+//            }
+//        }
 
         return (File[]) swordPath.toArray(new File[swordPath.size()]);
     }
