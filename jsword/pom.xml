@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.crosswire.jsword</groupId>
 	<artifactId>jsword</artifactId>
-	<version>1.6</version>
+	<version>1.6-stu1-SNAPSHOT</version>
 	<name>${pom.artifactId}</name>
 	<properties>
 		<lucene-version>2.3.2</lucene-version>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.crosswire.jsword</groupId>
 			<artifactId>jsword-common</artifactId>
-			<version>1.6</version>
+			<version>${pom.version}</version>
 		</dependency>
 		<!-- <dependency> <groupId>lucene</groupId> <artifactId>lucene</artifactId> 
 			<version>1.2</version> </dependency> -->

@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.crosswire.jsword</groupId>
 	<artifactId>jsword-common</artifactId>
-	<version>1.6</version>
+	<version>1.6-stu1-SNAPSHOT</version>
 	<name>${pom.artifactId}</name>
 
 	<dependencies>
